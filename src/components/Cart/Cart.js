@@ -22,7 +22,6 @@ const Cart = (props) => {
     cartCtx.addItem({ ...item, amount: 1 });
   };
 
-  
   const orderHanlder = () => {
     cartCtx.clearall();
     setShowOrder(true);
