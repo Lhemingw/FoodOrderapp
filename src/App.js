@@ -29,6 +29,8 @@ function App() {
           <Meals />
         </main>
       </CartProvider>
+
+      <div id="overlays" />
     </div>
   );
 }
